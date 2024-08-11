@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin: 5px;
+}
+
+.editor-container,
+.preview-container {
+  display: block;
+  height: 99vh;
+  width: 50%;
+  min-width: 300px;
+  resize: horizontal;
+  border: 1px solid white;
+  overflow: auto;
+}
+
+.editor-container {
+  margin-right: 5px;
+  resize: horizontal;
+  overflow: auto;
+}
+
+#editor {
+  width: 99%;
+  height: 94%;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  resize: none;
+  padding: 10px;
+}
+
+#preview {
+  padding: 10px 0 0 25px;
+  resize: horizontal;
+}
+
+.heading {
+  position: sticky;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 5px;
+  background: grey;
+}
