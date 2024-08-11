@@ -32,6 +32,6 @@ You can view the live project here: [Markdown Previewer](https://main--markdownp
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/markdown-previewer.git
+   git clone https://yashjunagade/markdown-previewer.git
    cd markdown-previewer
    ```
