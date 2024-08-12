@@ -11,10 +11,13 @@ function App() {
   }
 
   return (
-    <div className="container">
-      <Editor markCode={markCode} onTextChange={handleTextChange}></Editor>
-      <Preview markCode={markCode}></Preview>
-    </div>
+    <>
+      <div className="container">
+        <Editor markCode={markCode} onTextChange={handleTextChange}></Editor>
+        <Preview markCode={markCode}></Preview>
+      </div>
+      <p className="myName">Made by ❤️ Yash Junagade</p>
+    </>
   );
 }
 

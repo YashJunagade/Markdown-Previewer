@@ -15,7 +15,7 @@
 .editor-container,
 .preview-container {
   display: block;
-  height: 99vh;
+  height: 95vh;
   width: 50%;
   min-width: 300px;
   resize: horizontal;
@@ -53,4 +53,8 @@
   font-weight: 600;
   padding-top: 5px;
   background: grey;
+}
+
+.myName {
+  text-align: center;
 }
