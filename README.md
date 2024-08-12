@@ -11,7 +11,7 @@ This is a React-based Markdown Previewer project. The app allows users to write 
 
 ## Live Demo
 
-You can view the live project here: [Markdown Previewer]()
+You can view the live project here: [Markdown Previewer](https://main--markdownpreviewer-yashjunagade.netlify.app/)
 
 ## User Stories
 
@@ -32,6 +32,6 @@ You can view the live project here: [Markdown Previewer]()
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/markdown-previewer.git
+   git clone https://yashjunagade/markdown-previewer.git
    cd markdown-previewer
    ```
